@@ -1,0 +1,33 @@
+# === KETHER_1 ZERO-TRUST SECURITY SHIELD ===
+# Proteção contra vazamento de segredos, chaves e credenciais
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!.env.template
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.cer
+*.csr
+id_rsa*
+id_ed25519*
+*.secret
+*.secret.*
+*.kdbx
+*token*
+*credential*
+credentials.json
+client_secret*.json
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+# === END KETHER_1 ZERO-TRUST SHIELD ===
